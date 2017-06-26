@@ -1,0 +1,27 @@
+{
+    "name": "title-bar",
+    "version": "1.0.0",
+    "description": "Connect to the GDAX exchange.",
+    "main": "./lib/main",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "via",
+        "trading",
+        "title",
+        "bar"
+    ],
+    "exchange": "gdax",
+    "repository": "https://bitbucket.org/via-trading/gdax",
+    "author": "Dakota Gordon",
+    "engines": {
+        "via": "*"
+    },
+    "dependencies": {
+
+    },
+    "configSchema": {
+
+    }
+}
