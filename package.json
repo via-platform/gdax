@@ -1,27 +1,28 @@
 {
-    "name": "title-bar",
-    "version": "1.0.0",
-    "description": "Connect to the GDAX exchange.",
-    "main": "./lib/main",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "via",
-        "trading",
-        "title",
-        "bar"
-    ],
-    "exchange": "gdax",
-    "repository": "https://bitbucket.org/via-trading/gdax",
-    "author": "Dakota Gordon",
-    "engines": {
-        "via": "*"
-    },
-    "dependencies": {
-
-    },
-    "configSchema": {
-
-    }
+  "name": "gdax",
+  "version": "1.0.0",
+  "description": "Connect to the GDAX exchange.",
+  "main": "./lib/exchange",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "via",
+    "trading",
+    "title",
+    "bar"
+  ],
+  "exchange": "gdax",
+  "repository": "https://bitbucket.org/via-trading/gdax",
+  "author": "Dakota Gordon",
+  "engines": {
+    "via": "*"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bintrees": "^1.0.1",
+    "num": "^0.3.0",
+    "ws": "^3.2.0"
+  },
+  "configSchema": {}
 }
