@@ -1,6 +1,6 @@
 {
   "name": "gdax",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "An adapter to connect Via to the GDAX exchange.",
   "main": "./lib/main",
   "scripts": {
